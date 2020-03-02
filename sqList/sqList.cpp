@@ -20,6 +20,7 @@ Status sqList<T>::delete_sq(int i, T &e){
     for(++p;p<=q;++p){
         *(p-1) = *p;
     }
+    --length;
     cout <<  e <<" has deleted" << endl;
   return OK;
 }
