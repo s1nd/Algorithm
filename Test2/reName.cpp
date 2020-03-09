@@ -6,7 +6,7 @@ int main6(){
     main5();
     return 0;
 }
-int main(){
+int main7(){
     for(int j=0;j<0;j++){
         cout<< "hello"<<endl;
     }

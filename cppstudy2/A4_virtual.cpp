@@ -15,6 +15,7 @@ public:
     Dog(){};
     ~Dog(){};
     void yell(){cout<<"WangWang"<<endl;};
+    void zh_cnDog(){cout<<"ÍúÍú!";};
 protected:
 private:
 };
@@ -40,11 +41,12 @@ private:
 };
 
 
-int main(){
+int main4(){
     Poultry *p = new Poultry;
     p->eat();
     p = new Dog;
     p->yell();
+    //p->zh_cnDog();// 'class Poultry' has no member named 'zh_cnDog'|
     p = new Cat;
     p->yell();
     //sparrow shut up
